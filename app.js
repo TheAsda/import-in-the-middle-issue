@@ -1,5 +1,4 @@
 import fastify from "fastify";
-import { equal } from "assert";
 
 const app = fastify();
 

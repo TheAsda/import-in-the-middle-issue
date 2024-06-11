@@ -1,4 +1,3 @@
-import fastifyPlugin from "fastify-plugin";
 import { Hook } from "import-in-the-middle";
 
 new Hook(["fastify"], { internals: false }, (moduleExport) => {
