@@ -1,0 +1,18 @@
+{
+  "name": "import-in-the-middle-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import ./patch1.js --import ./patch2.js ./app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "fastify-plugin": "^4.5.1",
+    "import-in-the-middle": "^1.8.0"
+  }
+}
